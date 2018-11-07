@@ -6,7 +6,7 @@ var GraphQLID = require('graphql').GraphQLID;
 var GraphQLString = require('graphql').GraphQLString;
 var GraphQLFloat = require('graphql').GraphQLFloat;
 
-// User Type
+// Movie Type
 exports.MovieType = new GraphQLObjectType({
   name: 'movie',
   fields: function () {
